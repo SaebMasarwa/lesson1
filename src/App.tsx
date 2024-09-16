@@ -8,9 +8,10 @@ function App() {
   let age: number = 20;
   let animalUrl: string =
     "https://c02.purpledshub.com/uploads/sites/62/2018/06/GettyImages-524909101-4ccfcfa.jpg?webp=1&w=1200";
+    let username: string = "Margol";
   return (
     <div className="App">
-      <Navbar />
+      <Navbar user={username}/>
       <h1>{myName}</h1>
       <p>Hello from App component</p>
       <img src={animalUrl} alt="cute giraffe" />
